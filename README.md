@@ -3,7 +3,7 @@
 
 Set airflow directory
 ```
-export AIRFLOW_HOME="/home/avnish/census_consumer_project/census_consumer_complaint/airflow"
+export AIRFLOW_HOME="/home/arun/census_consumer_project/census_consumer_complaint/airflow"
 ```
 
 To install airflow 
@@ -18,7 +18,7 @@ airflow db init
 
 To create login user for airflow
 ```
-airflow users create  -e avnish@ineuron.ai -f Avnish -l Yadav -p admin -r Admin  -u admin
+airflow users create  -e aksw.it@gmail.com -f ArunKumar -l Naga -p admin -r Admin  -u admin
 ```
 To start scheduler
 ```
